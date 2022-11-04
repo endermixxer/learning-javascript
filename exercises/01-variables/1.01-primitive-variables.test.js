@@ -33,11 +33,14 @@
 
 // your code goes here
 
+	let x;
+
+
 /* TASK #2
     Create a variable named age and set it's value to your age in years. Once 
 	created, this variable will will have a data type of "number"
 */
-
+let age = 15;
 // your code goes here
 
 /* TASK #3
@@ -46,13 +49,14 @@
 */
 
 // your code goes here
-
+let myName = "Evan Gerstner";
 /* TASK #4
 	Create a variable named isCodingFun and set it's value to true Once created, 
 	this variable will will have a data type of "boolean"
 */
 
 // your code goes here
+let isCodingFun = true;
 
 /* TASK #5
 	Create a new variable called nameCopy and assign it to the myName variable 
@@ -61,7 +65,7 @@
 */
 
 // your code goes here
-
+const nameCopy = myName;
 /* ****************************************************************************
    ***           DO NOT MODIFY ANYTHING AFTER THIS SECTION                  ***
    ****************************************************************************
