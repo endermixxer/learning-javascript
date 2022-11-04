@@ -30,14 +30,14 @@ TASK #1
 */
 
 // your code goes here
-
+		let fruits = ["apple", "orange", "pear"];
 /* 
 TASK #2
 	Create an empty array variable named mixedData.
 */
 
 // your code goes here
-
+let mixedData = [];
 /*
 TASK #3
 	Arrays can hold more than one type of data at a time, they can even hold 
@@ -54,7 +54,7 @@ TASK #3
 */
 
 // your code goes here
-
+mixedData.push(1, "hi", true);
 /* ****************************************************************************
    ***           DO NOT MODIFY ANYTHING AFTER THIS SECTION                  ***
    ****************************************************************************

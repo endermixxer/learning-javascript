@@ -34,11 +34,17 @@ EXERCISE 2.01: Functions
 */
 
 // your code goes here
+function add (a, b) {
+	if(a >= 3, b >= 2) {
+		return(a+b);
+		
+	}
+};
 
 /* TASK #2
 	Define a new function variable named "sayHello" that takes in two parameters.
 	The first parameter should be a string called name, and the second paramater 
-	should be a number called age.  The function should return a string that
+	should be  number called age.  The function should return a string that
 	combines the two inputs such that if name was "John Doe" and age was 15, it 
 	would output "Hello, my name is John Doe and I am 15 years old.".
 	Your function should throw an error if the first parameter is not a string or 

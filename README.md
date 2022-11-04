@@ -10,6 +10,7 @@
 -   Look for hints in the challenges
 -   Check your code into GitHub regularly
 
+
 ---
 
 This project requires node.js to work properly. You can see if node is already
@@ -19,7 +20,7 @@ installed on your machine by running the following command in a terminal:
 npm --version
 ```
 
-If node is installed, you should see a version number, otherwise you will see
+If node is installed, you should see npm version number, otherwise you will see
 a message indicating the command is not recognized. You can install node on
 Windows or Mac, by visiting the [node.js website](https://nodejs.org/en/). If you
 are using a ChromeBook, you can install node by running the following commands
