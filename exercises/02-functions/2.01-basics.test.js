@@ -34,12 +34,9 @@ EXERCISE 2.01: Functions
 */
 
 // your code goes here
-function add (a, b) {
-	if(a >= 3, b >= 2) {
-		return(a+b);
-		
-	}
-};
+function add(c, d) {
+	return c + d;
+}
 
 /* TASK #2
 	Define a new function variable named "sayHello" that takes in two parameters.
@@ -56,7 +53,16 @@ function add (a, b) {
 */
 
 // your code goes here
+function sayHello(name, age) {
+	
+	if(typeof name != "string" || typeof age != "number" ) {
+		throw sayHello;
+	}
+	return name + age;
+	console.loq(name)
+	console.log(age)
 
+}
 /* ****************************************************************************
    ***           DO NOT MODIFY ANYTHING AFTER THIS SECTION                  ***
    ****************************************************************************
