@@ -15,12 +15,17 @@ drawSquare(75, 0, "green");
 drawSquare(100, 0, "teal");
 function drawSquare(x, y, color, size = 25) {
 	let square = new Path2D();
-	square.rect(x, y, size, size);
-
-	squares.push(square);
-
-
+	context.beginPath(square);	
 	context.fillStyle = color;
 	context.fillRect(x, y, 25, 25);
+	context.moveTo(25, 0)
+	squares.push(squares)
 	
+	
+	
+
+
+	
+
+
 }
